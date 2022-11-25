@@ -27,7 +27,7 @@ export default function Root() {
           <A href="/">Index</A>
           <A href="/about">About</A>
           <Suspense>
-            <main class="prose lg:prose-xl prose-slate m-4 p-4 bg-gray-100">
+            <main class="prose lg:prose-xl prose-slate m-4 p-4 bg-texas-rose-100 w-full h-full min-h-screen items-center">
               <Routes>
                 <FileRoutes />
               </Routes>
