@@ -1,5 +1,6 @@
-import solid from "solid-start/vite";
-import { defineConfig } from "vite";
+import solid from "solid-start/vite"
+import netlify from "solid-start-netlify"
+import { defineConfig } from "vite"
 
 export default defineConfig({
   plugins: [
@@ -13,6 +14,7 @@ export default defineConfig({
     },
     solid({
       extensions: [".mdx", ".md"],
+      adapter: netlify(),
     }),
   ],
-});
+})
